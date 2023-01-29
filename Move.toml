@@ -1,0 +1,23 @@
+[package]
+name = 'TokenStaking'
+version = '1.0.0'
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[dependencies.AptosToken]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-token'
+
+[dependencies.AptosStdlib]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-stdlib'
+
+
+[addresses]
+staking = "0xe5e68192d8e2879e0acaceee4069e3146059fd7ad070683217bce4bdbf43b184"
+module_owner = '1b0402544351636c4b71e6829336f8ff5276041f135eed7502ef5b9b0ce2192c'
